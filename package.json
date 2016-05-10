@@ -17,5 +17,17 @@
     "transform"
   ],
   "author": "Ben Wiley",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benwiley4000/recursive-lowercase-json.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benwiley4000/recursive-lowercase-json/issues"
+  },
+  "homepage": "https://github.com/benwiley4000/recursive-lowercase-json#readme",
+  "devDependencies": {
+    "babel-cli": "^6.8.0"
+  }
 }
