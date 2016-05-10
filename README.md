@@ -1,6 +1,8 @@
+#recursive-lowercase-json
+
 This module provides a function that accepts one argument, a JSON-compatible JavaScript object. It returns a deep copy of that object with all object keys transformed to lowercase-only (including objects nested inside of arrays).
 
-Any object will work, but if it contains JSON-incompatible properties (e.g. functions), they will be ignored (or interpreted as empty objects). The module's intended use is for JSON responses from APIs, which may contain object keys with a capitalized format -- which may not jive with your application's conventions.
+Any object will work, but if it contains JSON-incompatible properties (e.g. functions), they will be ignored (or interpreted as empty objects). The module's intended use is for JSON responses from APIs, which may contain object keys with a capitalized format -- perhaps not in line with your application's conventions.
 
 Installation:
 ```
