@@ -4,13 +4,15 @@ This module provides a function that accepts one argument, a JSON-compatible Jav
 
 Any object will work, but if it contains JSON-incompatible properties (e.g. functions), they will be ignored (or interpreted as empty objects). The module's intended use is for JSON responses from APIs, which may contain object keys with a capitalized format -- perhaps not in line with your application's conventions.
 
-##Installation (get it from [npm](https://www.npmjs.com/package/recursive-lowercase-json)):
+[![NPM](https://nodei.co/npm/recursive-lowercase-json.png)](https://npmjs.org/package/recursive-lowercase-json)
+
+##Installation
 ```
 npm install recursive-lowercase-json
 ```
 
 Usage:
-```
+```javascript
 /**
  * ES6/ES2015 syntax
  */
